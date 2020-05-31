@@ -21,4 +21,4 @@ void main() {
 	
 	// Here's where we tell Minecraft what color we want this pixel.
 	gl_FragColor = vec4(color, 1.0);
-}
+};
