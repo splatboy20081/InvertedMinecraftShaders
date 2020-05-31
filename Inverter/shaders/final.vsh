@@ -6,4 +6,4 @@ void main() {
 	// Here we're just setting up things we'll need in final.fsh
 	gl_Position = ftransform();
 	texcoord = gl_MultiTexCoord0;
-}
+};
