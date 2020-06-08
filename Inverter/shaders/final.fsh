@@ -15,9 +15,9 @@ void main() {
 	vec3 color = texture2D(gcolor, point).rgb;
 
 	// You can do whatever you want to the color. Here we're inverting it.
-	color.r = 1 - color.r;
-	color.g = 1 - color.g;
-	color.b = 1 - color.b;
+	color.r *= -1;
+	color.g *= -1;
+	color.b *= -1;
 	
 	// Here's where we tell Minecraft what color we want this pixel.
 	gl_FragColor = vec4(color, 1.0);
